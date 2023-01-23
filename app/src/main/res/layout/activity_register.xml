@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:paddingBottom="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="Please Fill Your Information"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Email"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter email"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Password"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter password"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Confirm password"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editRePassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Re - enter password"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Firstname"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editFirstName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter your first name"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Last name"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editLastName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter your last name"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Date of birth"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/editBirth"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:hint="yyyy/mm/dd"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Gender"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editGender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter your gender"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Phone number"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter your phone number"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Credit carrd"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editCreditCard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter your credit card"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Address"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter your address"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="City"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <Spinner
+                android:id="@+id/spinnerCity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+<!--            <EditText-->
+<!--                android:id="@+id/editCity"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:inputType="textCapWords"-->
+<!--                android:padding="10dp"-->
+<!--                android:layout_gravity="left"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Enter your City"-->
+<!--                android:textColor="#5EA1DC"-->
+<!--                android:textColorHint="#955EA1DC"-->
+<!--                android:fontFamily="sans-serif-medium"-->
+<!--                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="District"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editDistrict"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter your district"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-medium"
+                android:text="Ward"
+                android:textColor="#5EA1DC"
+                android:textSize="23sp" />
+            <EditText
+                android:id="@+id/editWard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:hint="Enter your ward"
+                android:textColor="#5EA1DC"
+                android:textColorHint="#955EA1DC"
+                android:fontFamily="sans-serif-medium"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+            <!-- Login Button -->
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_marginTop="20dip"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_radius_rectangle"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Sign up"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_radius_rectangle_stroke"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Login"
+                    android:textAllCaps="false"
+                    android:textColor="#5EA1DC"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

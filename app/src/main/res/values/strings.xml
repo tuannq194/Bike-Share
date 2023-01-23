@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Bike Share</string>
+    <string name="map_api_key">AIzaSyAtdTWAUA78Q0bf5FaWF1o5ABbIvWkjXCE</string>
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="permission_required_toast">Permission required toast</string>
+    <string name="permission_rationale_location">Permission rationale location</string>
+    <string name="login_title">ĐĂNG NHẬP</string>
+    <string name="login_lable1">Tài Khoản</string>
+    <string name="login_lable2">Mật Khẩu</string>
+    <string name="login_btn">Đăng nhập</string>
+    <string name="register_title">TẠO TÀI KHOẢN</string>
+    <string name="register_email">Email</string>
+    <string name="register_btn">Đăng Ký</string>
+    <string name="title_activity_result_login">ResultLogin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--    <string name="address">http://192.168.1.181:8080</string>-->
+    <string name="address">http://155.248.164.224:8080</string>
+    <string name="addressMQTT">tcp://155.248.164.224:1883</string>
+    <string name="addressSocket">ws://171.224.39.35:8080</string>
+    <string name="MQTTusername">sanslab</string>
+    <string name="MQTTpassword">1</string>
+</resources>

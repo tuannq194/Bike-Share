@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/background.xml" value="0.1855" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/button.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/button_radius_rectangle.xml" value="0.238" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/button_radius_rectangle_stroke.xml" value="0.1255" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/button_round.xml" value="0.1895" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/customborder.xml" value="0.162" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/ic_baseline_account_balance_wallet_24.xml" value="0.162" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/ic_baseline_confirmation_number_24.xml" value="0.1895" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1895" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/ic_message.xml" value="0.1895" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/ic_send.xml" value="0.1895" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/drawable/my_button_bg.xml" value="0.162" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_contract.xml" value="0.23854166666666668" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_go.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_map.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_my_trip.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_qr.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_qrresult.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_register_active.xml" value="0.16799999999999998" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/activity_test.xml" value="0.1703125" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/fragment_map.xml" value="0.1921875" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/BikeShare/App/app/src/main/res/menu/drawer_menu.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/BikeShare/LogIn/app/src/main/res/drawable/my_button_bg.xml" value="0.2265" />
+        <entry key="..\:/AndroidStudio/BikeShare/LogIn/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/BikeShare/LogIn/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/BikeShare/LogIn/app/src/main/res/layout/activity_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/BikeShare/LogIn/app/src/main/res/layout/activity_qr.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/BikeShare/LogIn/app/src/main/res/layout/my_button_bg.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
